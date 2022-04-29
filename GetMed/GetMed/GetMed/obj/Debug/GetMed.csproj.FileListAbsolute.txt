@@ -1,0 +1,17 @@
+C:\Users\patri\Documents\GetMed\GetMed\GetMed\bin\Debug\GetMed.exe.config
+C:\Users\patri\Documents\GetMed\GetMed\GetMed\bin\Debug\GetMed.exe
+C:\Users\patri\Documents\GetMed\GetMed\GetMed\bin\Debug\GetMed.pdb
+C:\Users\patri\Documents\GetMed\GetMed\GetMed\obj\Debug\GetMed.csprojResolveAssemblyReference.cache
+C:\Users\patri\Documents\GetMed\GetMed\GetMed\obj\Debug\GetMed.Form1.resources
+C:\Users\patri\Documents\GetMed\GetMed\GetMed\obj\Debug\GetMed.Properties.Resources.resources
+C:\Users\patri\Documents\GetMed\GetMed\GetMed\obj\Debug\GetMed.csproj.GenerateResource.Cache
+C:\Users\patri\Documents\GetMed\GetMed\GetMed\obj\Debug\GetMed.exe
+C:\Users\patri\Documents\GetMed\GetMed\GetMed\obj\Debug\GetMed.pdb
+C:\Users\patri\Documents\GetMed\GetMed\GetMed\obj\Debug\GetMed.Adminstrator.resources
+C:\Users\patri\Documents\GetMed\GetMed\GetMed\obj\Debug\GetMed.AdminstratorUC.UC_Dashboard.resources
+C:\Users\patri\Documents\GetMed\GetMed\GetMed\obj\Debug\GetMed.AdminstratorUC.UC_AddUser.resources
+C:\Users\patri\Documents\GetMed\GetMed\GetMed\obj\Debug\GetMed.Pharmacist.resources
+C:\Users\patri\Documents\GetMed\GetMed\GetMed\obj\Debug\GetMed.AdminstratorUC.UC_ViewUser.resources
+C:\Users\patri\Documents\GetMed\GetMed\GetMed\obj\Debug\GetMed.AdminstratorUC.UC_Profile.resources
+C:\Users\patri\Documents\GetMed\GetMed\GetMed\obj\Debug\GetMed.PharmacistUC.UC_P_Dashboard.resources
+C:\Users\patri\Documents\GetMed\GetMed\GetMed\obj\Debug\GetMed.PharmacistUC.UC_P_AddMedicine.resources

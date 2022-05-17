@@ -12,11 +12,13 @@ namespace GetMed
 {
     public partial class Pharmacist : Form
     {
+        
         public Pharmacist()
         {
             InitializeComponent();
         }
-
+        
+          
         private void btnLogOut_Click(object sender, EventArgs e)
         {
             DialogResult dialog = MessageBox.Show("Are you sure, you want to log out?", "Question", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
@@ -42,6 +44,10 @@ namespace GetMed
         {
             uC_P_Dashboard1.Visible = false;
             uC_P_AddMedicine1.Visible = false;
+            uC_P_Stock1.Visible = false;
+            uC_P_UpdateMed1.Visible = false;
+            uC_P_MedicineValidity1.Visible = false;
+            uC_P_SellMed1.Visible = false;
             btnDashboard.PerformClick();
         }
 
@@ -49,6 +55,35 @@ namespace GetMed
         {
             uC_P_AddMedicine1.Visible = true;
             uC_P_AddMedicine1.BringToFront();
+        }
+
+        private void btnViewUser_Click(object sender, EventArgs e)
+        {
+            uC_P_Stock1.Visible = true;
+            uC_P_Stock1.BringToFront();
+        }
+
+        private void btnModify_Click(object sender, EventArgs e)
+        {
+            uC_P_UpdateMed1.Visible = true;
+            uC_P_UpdateMed1.BringToFront();
+        }
+
+        private void btnMedValidity_Click(object sender, EventArgs e)
+        {
+            uC_P_MedicineValidity1.Visible = true;
+            uC_P_MedicineValidity1.BringToFront();
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            uC_P_SellMed1.Visible = true;
+            uC_P_SellMed1.BringToFront();
+        }
+
+        private void userNameLabel_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -80,5 +80,10 @@ namespace GetMed
             uC_Profile1.Visible = true;
             uC_Profile1.BringToFront();
         }
+
+        private void userNameLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

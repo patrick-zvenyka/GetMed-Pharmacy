@@ -1198,4 +1198,26 @@
   <metadata name="guna2Elipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="btnPrint.HoverState.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAUdJREFUWEft
+        lb1KxEAURgPiHwviU1ipnYKV+EjiG2jlY9hoIVgoom5n6VPYKIKNrY3o+Za9MN5MmMkmsyjkwCHcm8x8
+        l/yQamDgL/Jd2CSxRX2aJPvClvy/AUqZJLaoT5NkX9iSYYBOA/ie1SlDYr0oOYutThkS60XJvrAltu/z
+        1BNcxBolBlhC2zf0FGvYyRDfs9obQ+HXqPPvuIcH0/oNa8Q28z2rvR4fvoViF9V7mVSOps3asow36MN1
+        VK3+sRqePgbICded0R2q0XWAVRyj9njFDRQ7+IHqn+MCRukyQE74BTaGi1kHGOEj+nC9cBZ+hdFvP8QG
+        mFU9400U22jP/Bb1biTxG7axKfwOV7AIa/iFnzj3cLGPCnqaVL/D77FouDhChekHoyF0J1Q/YPFwoW9a
+        gaF64fRJzoVLPMND1E9mHTOpqh+7FSLPjPI/KgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnPrint.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAUdJREFUWEft
+        lb1KxEAURgPiHwviU1ipnYKV+EjiG2jlY9hoIVgoom5n6VPYKIKNrY3o+Za9MN5MmMkmsyjkwCHcm8x8
+        l/yQamDgL/Jd2CSxRX2aJPvClvy/AUqZJLaoT5NkX9iSYYBOA/ie1SlDYr0oOYutThkS60XJvrAltu/z
+        1BNcxBolBlhC2zf0FGvYyRDfs9obQ+HXqPPvuIcH0/oNa8Q28z2rvR4fvoViF9V7mVSOps3asow36MN1
+        VK3+sRqePgbICded0R2q0XWAVRyj9njFDRQ7+IHqn+MCRukyQE74BTaGi1kHGOEj+nC9cBZ+hdFvP8QG
+        mFU9400U22jP/Bb1biTxG7axKfwOV7AIa/iFnzj3cLGPCnqaVL/D77FouDhChekHoyF0J1Q/YPFwoW9a
+        gaF64fRJzoVLPMND1E9mHTOpqh+7FSLPjPI/KgAAAABJRU5ErkJggg==
+</value>
+  </data>
 </root>

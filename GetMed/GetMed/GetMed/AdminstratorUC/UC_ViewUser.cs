@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DGVPrinterHelper;
 
 namespace GetMed.AdminstratorUC
 {
@@ -71,6 +72,21 @@ namespace GetMed.AdminstratorUC
         private void btnSync_Click(object sender, EventArgs e)
         {
             UC_ViewUser_Load(this, null);
+        }
+
+        private void btnPrint_Click(object sender, EventArgs e)
+        {
+            DGVPrinter print = new DGVPrinter();
+            print.Title = "GetMed Pharmacy Inc.\n Users Report";
+            print.SubTitle = String.Format("Date:- {0}", DateTime.Now.Date);
+            print.SubTitleFormatFlags = StringFormatFlags.LineLimit | StringFormatFlags.NoClip;
+            print.PageNumbers = true;
+            print.PageNumberInHeader = false;
+            print.PorportionalColumns = true;
+            print.HeaderCellAlignment = StringAlignment.Near;
+            print.Footer = "GetMed Pharmacy Inc.\n Users Report";
+            print.FooterSpacing = 15;
+            print.PrintDataGridView(guna2DataGridView1);
         }
     }
 }

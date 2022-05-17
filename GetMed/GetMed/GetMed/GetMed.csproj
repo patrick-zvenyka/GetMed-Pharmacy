@@ -83,6 +83,7 @@
     <Compile Include="AdminstratorUC\UC_ViewUser.Designer.cs">
       <DependentUpon>UC_ViewUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="DGVPrinter.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +108,30 @@
     </Compile>
     <Compile Include="PharmacistUC\UC_P_Dashboard.Designer.cs">
       <DependentUpon>UC_P_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PharmacistUC\UC_P_MedicineValidity.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PharmacistUC\UC_P_MedicineValidity.Designer.cs">
+      <DependentUpon>UC_P_MedicineValidity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PharmacistUC\UC_P_SellMed.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PharmacistUC\UC_P_SellMed.Designer.cs">
+      <DependentUpon>UC_P_SellMed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PharmacistUC\UC_P_Stock.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PharmacistUC\UC_P_Stock.Designer.cs">
+      <DependentUpon>UC_P_Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PharmacistUC\UC_P_UpdateMed.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PharmacistUC\UC_P_UpdateMed.Designer.cs">
+      <DependentUpon>UC_P_UpdateMed.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -136,6 +161,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PharmacistUC\UC_P_Dashboard.resx">
       <DependentUpon>UC_P_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PharmacistUC\UC_P_MedicineValidity.resx">
+      <DependentUpon>UC_P_MedicineValidity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PharmacistUC\UC_P_SellMed.resx">
+      <DependentUpon>UC_P_SellMed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PharmacistUC\UC_P_Stock.resx">
+      <DependentUpon>UC_P_Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PharmacistUC\UC_P_UpdateMed.resx">
+      <DependentUpon>UC_P_UpdateMed.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

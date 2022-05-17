@@ -82,6 +82,7 @@
             this.guna2Button1.Size = new System.Drawing.Size(59, 37);
             this.guna2Button1.TabIndex = 2;
             this.guna2Button1.Text = "Reload";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // chart1
             // 
@@ -128,6 +129,7 @@
             this.Controls.Add(this.label1);
             this.Name = "UC_P_Dashboard";
             this.Size = new System.Drawing.Size(870, 493);
+            this.Load += new System.EventHandler(this.UC_P_Dashboard_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

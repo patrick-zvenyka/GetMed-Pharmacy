@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.userNameLabel = new System.Windows.Forms.Label();
             this.btnLogOut = new Guna.UI2.WinForms.Guna2Button();
             this.btnProfile = new Guna.UI2.WinForms.Guna2Button();
             this.btnViewUser = new Guna.UI2.WinForms.Guna2Button();
@@ -38,15 +39,14 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.userNameLabel = new System.Windows.Forms.Label();
             this.uC_Profile1 = new GetMed.AdminstratorUC.UC_Profile();
             this.uC_ViewUser1 = new GetMed.AdminstratorUC.UC_ViewUser();
             this.uC_AddUser1 = new GetMed.AdminstratorUC.UC_AddUser();
             this.uC_Dashboard1 = new GetMed.AdminstratorUC.UC_Dashboard();
+            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
@@ -66,6 +66,18 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(198, 499);
             this.panel1.TabIndex = 1;
+            // 
+            // userNameLabel
+            // 
+            this.userNameLabel.AutoSize = true;
+            this.userNameLabel.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.userNameLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.userNameLabel.Location = new System.Drawing.Point(84, 459);
+            this.userNameLabel.Name = "userNameLabel";
+            this.userNameLabel.Size = new System.Drawing.Size(88, 21);
+            this.userNameLabel.TabIndex = 8;
+            this.userNameLabel.Text = "Username";
+            this.userNameLabel.Click += new System.EventHandler(this.userNameLabel_Click);
             // 
             // btnLogOut
             // 
@@ -196,33 +208,6 @@
             this.panel3.Size = new System.Drawing.Size(684, 480);
             this.panel3.TabIndex = 2;
             // 
-            // guna2Elipse1
-            // 
-            this.guna2Elipse1.TargetControl = this.panel3;
-            // 
-            // guna2Elipse2
-            // 
-            this.guna2Elipse2.TargetControl = this.panel3;
-            // 
-            // guna2Elipse3
-            // 
-            this.guna2Elipse3.TargetControl = this.panel3;
-            // 
-            // guna2Elipse4
-            // 
-            this.guna2Elipse4.TargetControl = this.panel3;
-            // 
-            // userNameLabel
-            // 
-            this.userNameLabel.AutoSize = true;
-            this.userNameLabel.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.userNameLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.userNameLabel.Location = new System.Drawing.Point(84, 459);
-            this.userNameLabel.Name = "userNameLabel";
-            this.userNameLabel.Size = new System.Drawing.Size(88, 21);
-            this.userNameLabel.TabIndex = 8;
-            this.userNameLabel.Text = "Username";
-            // 
             // uC_Profile1
             // 
             this.uC_Profile1.BackColor = System.Drawing.Color.White;
@@ -254,6 +239,22 @@
             this.uC_Dashboard1.Name = "uC_Dashboard1";
             this.uC_Dashboard1.Size = new System.Drawing.Size(512, 480);
             this.uC_Dashboard1.TabIndex = 0;
+            // 
+            // guna2Elipse1
+            // 
+            this.guna2Elipse1.TargetControl = this.panel3;
+            // 
+            // guna2Elipse2
+            // 
+            this.guna2Elipse2.TargetControl = this.panel3;
+            // 
+            // guna2Elipse3
+            // 
+            this.guna2Elipse3.TargetControl = this.panel3;
+            // 
+            // guna2Elipse4
+            // 
+            this.guna2Elipse4.TargetControl = this.panel3;
             // 
             // Adminstrator
             // 

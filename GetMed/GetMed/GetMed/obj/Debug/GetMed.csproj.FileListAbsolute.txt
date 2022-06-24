@@ -36,3 +36,5 @@ C:\Users\patri\Documents\GitHub\GetMed-Pharmacy\GetMed\GetMed\GetMed\obj\Debug\G
 C:\Users\patri\Documents\GitHub\GetMed-Pharmacy\GetMed\GetMed\GetMed\obj\Debug\GetMed.PharmacistUC.UC_P_UpdateMed.resources
 C:\Users\patri\Documents\GitHub\GetMed-Pharmacy\GetMed\GetMed\GetMed\obj\Debug\GetMed.PharmacistUC.UC_P_MedicineValidity.resources
 C:\Users\patri\Documents\GitHub\GetMed-Pharmacy\GetMed\GetMed\GetMed\obj\Debug\GetMed.PharmacistUC.UC_P_SellMed.resources
+C:\Users\patri\Documents\GitHub\GetMed-Pharmacy\GetMed\GetMed\GetMed\bin\Debug\getmedDB.mdf
+C:\Users\patri\Documents\GitHub\GetMed-Pharmacy\GetMed\GetMed\GetMed\bin\Debug\getmedDB_log.ldf

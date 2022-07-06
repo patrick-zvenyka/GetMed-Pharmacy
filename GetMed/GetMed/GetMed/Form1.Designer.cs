@@ -56,9 +56,9 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label1.Location = new System.Drawing.Point(14, 150);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(207, 24);
+            this.label1.Size = new System.Drawing.Size(208, 24);
             this.label1.TabIndex = 1;
-            this.label1.Text = "GetMed Pharmacy";
+            this.label1.Text = "Sunshine Pharmacy";
             // 
             // txtUsername
             // 

@@ -163,7 +163,7 @@ namespace GetMed.PharmacistUC
         private void btnPurchasePrint_Click(object sender, EventArgs e)
         {
             DGVPrinter print = new DGVPrinter();
-            print.Title = "GetMed Pharmacy Inc.\n Payment Reciept";
+            print.Title = "Sunshine Pharmacy Inc.\n Payment Reciept";
             print.SubTitle = String.Format("Date:- {0}", DateTime.Now.Date);
             print.SubTitleFormatFlags = StringFormatFlags.LineLimit | StringFormatFlags.NoClip;
             print.PageNumbers = true;

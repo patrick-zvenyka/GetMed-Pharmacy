@@ -77,7 +77,7 @@ namespace GetMed.AdminstratorUC
         private void btnPrint_Click(object sender, EventArgs e)
         {
             DGVPrinter print = new DGVPrinter();
-            print.Title = "GetMed Pharmacy Inc.\n Users Report";
+            print.Title = "Sunshine Pharmacy Inc.\n Users Report";
             print.SubTitle = String.Format("Date:- {0}", DateTime.Now.Date);
             print.SubTitleFormatFlags = StringFormatFlags.LineLimit | StringFormatFlags.NoClip;
             print.PageNumbers = true;
